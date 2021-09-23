@@ -13,6 +13,11 @@ function exercise10() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let bricks = '#'
+  for (let i = 1; i <= 7; i++) {
+    console.log(bricks)
+    bricks = bricks + '#'
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
@@ -25,5 +30,5 @@ function exercise10() {
 
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-10
-
+exercise10()
 module.exports = exercise10;

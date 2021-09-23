@@ -20,6 +20,15 @@ function exercise13() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let fib1 = 0
+  let fib2 = 1
+  //2 numbers at a time, so only loop 25x
+  //start from 2 since 0,1 are predefined
+  for (let i = 2; i <= 25; i++) {
+    fib1 = fib1 + fib2
+    fib2 = fib1 + fib2
+  }
+  console.log(fib2)
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

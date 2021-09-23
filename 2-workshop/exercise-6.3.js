@@ -6,6 +6,13 @@ function exercise6_3() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  for (let number = 1; number < 51; number++) {
+    if (number % 2) {
+    }
+    else {
+      console.log(number);
+    }
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

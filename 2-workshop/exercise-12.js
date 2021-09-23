@@ -15,6 +15,29 @@ function exercise12() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  
+  let array = [2] //2 is prime
+
+  //only checking odd numbers
+  for (let i = 3; i <= 200; i+=2) { 
+    //set to True...
+    let isPrime = true
+
+    for (let j = 2; j < i; j++) {
+      if (i % j === 0) {
+        //...then set to False if it fails the test
+        isPrime = false
+      }
+      else {
+        //do nothing
+      }
+    }
+  
+    if (isPrime === true) {
+      array.push(i)
+    }
+  }
+  console.log(array)
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
